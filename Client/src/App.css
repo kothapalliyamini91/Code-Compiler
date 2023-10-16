@@ -1,0 +1,204 @@
+/* Overall container styles */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f4f4f4;
+}
+
+/* Navigation bar styles */
+.navbar {
+  /* display: flex; */
+  /* justify-content: space-between; */
+  align-items: center;
+  background-color: #333;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  /* margin-bottom: 30px; */
+}
+
+/* Hamburger icon styles */
+
+
+/* Form container styles */
+.form-container {
+float: right;
+  align-items: center;
+  width: 500pt;
+  background-color: #fff;
+  border-radius: 6px;
+  padding-right: 30px;
+  /* box-shadow: 0 2px 5px rgba(27, 18, 18, 0.1); */
+  height: 600px;
+}
+
+/* Form styles */
+form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+/* Label styles */
+label {
+  margin-top: 10px;
+}
+
+/* Input and textarea styles */
+input,
+textarea {
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+/* Select styles */
+select {
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  background-color: #fff;
+}
+
+/* Textarea styles */
+textarea {
+  height: 200px;
+  /* width: 200pt; */
+}
+
+/* Button styles */
+button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+/* Button hover styles */
+button:hover {
+  background-color: #555;
+}
+
+.button-list-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.add-button {
+  background-color: #3498db;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.button-grid {
+  display: grid;
+}
+
+.custom-button {
+  /* background-color: #2ecc71; */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.input-field1 {
+  width: 433pt;
+  padding: 10px;
+  /* margin: 5px 0; */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.submit-button,
+.cancel-button {
+  background-color: #3498db;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+/* Styles for the model */
+.alert-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+/* Styles for the model content */
+.alert-content {
+  background-color: white;
+  border-radius: 10px;
+  padding: 40px;
+  max-width: 600px;
+}
+
+
+/* Styles for the wrapper */
+.question-wrapper {
+  margin-top: 20pt;
+  margin-right: 20pt;
+  width: 550px;
+}
+
+/* Styles for the question container */
+.question-container {
+  border: 1px solid #333;
+  padding: 20px;
+  border-radius: 20px;
+}
+.question-container1 {
+  border: 1px solid #333;
+  padding: 5px;
+  border-radius: 20px;
+}
+
+/* Styles for the question description */
+.question-description {
+  font-size: 18px;
+  line-height: 1.6;
+  width: 360pt;
+  height: 550px;
+}
+.question-description1 {
+  font-size: 18px;
+  line-height: 1.6;
+  width: 350pt;
+  /* height: 190px;  */
+}
