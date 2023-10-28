@@ -21,5 +21,5 @@ python manage.py runserver
 
 
 
+![Sample Image](https://github.com/kothapalliyamini91/Code-Compiler/blob/main/Screenshot%20from%202023-10-19%2010-47-07.png)
 
-https://github.com/kothapalliyamini91/Code-Compiler/blob/main/Screenshot%20from%202023-10-19%2010-47-07.png
